@@ -1,0 +1,83 @@
+/* .aboutcontent {
+     font-family: cursive;
+ } */
+
+#about {
+    background-color: lightgreen;
+}
+
+.abouthead,
+.aboutexperience,
+.aboutcertificate,
+.skills,
+.Qualify {
+    box-sizing: border-box;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* background-color: lightpink; */
+    transition: 0.8s;
+}
+
+.abouthead h1,
+.aboutexperience h1,
+.aboutcertificate h1,
+.skills h1,
+.Qualify h1 {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Reggae One', cursive;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+hr {
+    color: white;
+}
+
+.abouthead h2,
+.aboutexperience h2,
+.aboutcertificate h2,
+.aboutcertificate h3,
+.skills h2,
+.skills h3,
+.Qualify h2,
+.Qualify h3,
+.Qualify h4,
+.Qualify h5 {
+    color: black;
+    font-family: 'poppins';
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    transition: 0.6s;
+}
+
+hr {
+    color: white;
+    height: 2px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .abouthead h1,
+    .aboutexperience h1,
+    .aboutcertificate h1,
+    .skills h1,
+    .Qualify h1 {
+        font-size: 18px;
+    }
+    .abouthead h2,
+    .aboutexperience h2,
+    .aboutcertificate h2,
+    .aboutcertificate h3,
+    .skills h2,
+    .skills h3,
+    .Qualify h2,
+    .Qualify h3,
+    .Qualify h4,
+    .Qualify h5 {
+        font-size: 15px;
+    }
+}

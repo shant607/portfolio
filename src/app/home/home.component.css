@@ -1,0 +1,136 @@
+#home {
+    /* background-image: url(../../assets/c.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    background-color: lightyellow;
+    height: 100vh;
+}
+
+.photo img {
+    width: 35%;
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 300px;
+    float: right;
+    transition: 0.8s;
+}
+
+.photo img:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+}
+
+.homecontent {
+    float: right;
+    margin-top: -270px;
+    margin-right: 30px;
+    transition: 0.8s;
+}
+
+.homecontent h1 {
+    font-family: 'Reggae One', cursive;
+    color: #3498db;
+    font-size: 40px;
+    font-weight: bold;
+    transition: ease-in-out 0.8s;
+}
+
+.homecontent h1:hover {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: ease-in-out .8s;
+}
+
+.homecontent h2,
+h3 {
+    font-family: 'Reggae One', cursive;
+    color: black;
+    font-size: 24px;
+    transition: ease-in-out 0.8s;
+}
+
+.homecontent h3:hover {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #3498db;
+}
+
+.homecontent h2:hover {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #3498db;
+    transition: ease-in-out .8s;
+}
+
+.homecontent h4 {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.137);
+    border-radius: 10px;
+    color: white;
+    font-family: 'poppins';
+    font-size: 18px;
+    transition: ease-in-out 0.8s;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.137);
+}
+
+.homecontent h5 {
+    font-size: 18px;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: transparent; */
+    border: 1px solid #ffffff;
+    /* color: #ffffff; */
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: -47px;
+    font-family: 'poppins';
+    transition: ease-in-out 0.8s;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.137);
+}
+
+.homecontent h4:hover {
+    background-color: yellow;
+    transition: all ease 0.5s;
+    color: #000266;
+    transition: ease-in-out 0.8s;
+}
+
+.homecontent h5:hover {
+    background-color: yellow;
+    transition: all ease 0.5s;
+    color: #000266;
+    transition: ease-in-out .8s;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .photo img {
+        width: 60%;
+        height: 300px;
+        margin-top: 50px;
+        border-radius: 200px;
+        margin-right: 70px;
+        /* transition: 0.8s; */
+    }
+    .homecontent {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .homecontent h1 {
+        font-size: 25px;
+    }
+    .homecontent h2,
+    h3 {
+        font-size: 18px;
+    }
+}

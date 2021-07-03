@@ -1,0 +1,79 @@
+#work {
+    background-color: lightpink;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    color: #3498db;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.8s;
+}
+
+h1:hover {
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+.three p {
+    color: #3498db;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Reggae One', cursive;
+    transition: 0.8s;
+}
+
+.three p:hover {
+    color: black;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+.five p:hover {
+    color: black;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+.three {
+    /* box-sizing: border-box; */
+    /* border: 2px solid #9980FA; */
+    margin-top: 20px;
+    height: 205px;
+    margin-left: 210px;
+    background-color: lightpink;
+}
+
+.five {
+    /* box-sizing: border-box;
+    border: 2px solid #9980FA; */
+    margin-top: 10px;
+    height: 205px;
+    margin-left: 210px;
+    background-color: lightpink;
+}
+
+.five p {
+    color: #3498db;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Reggae One', cursive;
+    transition: 0.8s;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .five {
+        margin-left: 10px;
+    }
+    .three {
+        margin-left: 10px;
+    }
+}
